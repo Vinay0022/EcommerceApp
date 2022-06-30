@@ -5,11 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class RegisterUserActivity extends AppCompatActivity {
     private ImageButton backBtn,gpsBtn;
-    private ImageView profileIv;
+    private ImageButton profileIv;
     private EditText nameET,phoneET,passwordET,cPasswordET,countryET,stateET,cityET,addressET,emailET;
     private Button registerBtn;
     private TextView registerSellerTv;
@@ -45,9 +47,10 @@ gpsBtn.setOnClickListener(new View.OnClickListener(){
         // detect current location
          }
         });
-profileIv.setOnClikListener(new View.OnClickListener(){
+profileIv.setOnClickListener(new View.OnClickListener() {
     @Override
-    public void onClick(View v){
+    public void onClick(View view) {
+
     }
 });
  registerBtn.setOnClickListener(new View.OnClickListener() {

@@ -17,7 +17,7 @@
             android:id="@+id/backBtn"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:background="null"
+            android:background="@null"
             android:src="@drawable/ic_back_white" />
 
         <TextView
@@ -33,7 +33,7 @@
             android:layout_alignParentEnd="true"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:background="null"
+            android:background="@null"
             android:src="@drawable/ic_gps_white" />
     </RelativeLayout>
 
@@ -54,10 +54,10 @@
         android:layout_height="100dp"
         android:layout_below="@id/iconTV"
         android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_person_grey"
         app:c_border="true"
         app:c_border_color="@color/colorPrimary"
-        app:c_border_width="1dp"
-        android:src="@drawable/ic_person_grey" />
+        app:c_border_width="1dp" />
 
     <EditText
         android:id="@+id/nameET"
