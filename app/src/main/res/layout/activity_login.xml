@@ -10,16 +10,17 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:padding="10dp"
-        android:background="@drawable/shop_rect01">
+        android:background="@drawable/shop_rect01"
+        android:padding="10dp">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:text="Login"
-            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
             android:textSize="20sp"
-            android:textColor="@color/colorWhite"/>
+            android:textStyle="bold" />
     </RelativeLayout>
     <ImageView
         android:id="@+id/iconTV"
@@ -88,11 +89,22 @@ style="@style/Widget.AppCompat.Button.Colored"
         android:id="@+id/noAccountTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:text="Not have an account? Register"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        />
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Not have an account? Register" />
+<Button
+    android:id="@+id/SignUpBtn"
+    android:text="SignUp"
+    android:layout_centerHorizontal="true"
+    style="@style/Widget.AppCompat.Button.Colored"
+    android:minWidth="120dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/loginBtn"/>
 
 
 
