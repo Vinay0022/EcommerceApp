@@ -77,13 +77,13 @@
 
     <Button
         android:id="@+id/loginBtn"
-        android:text="Login"
-        android:layout_centerHorizontal="true"
-style="@style/Widget.AppCompat.Button.Colored"
-        android:minWidth="120dp"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/forgotTv"/>
+        android:layout_below="@+id/forgotTv"
+        android:layout_centerHorizontal="true"
+        android:minWidth="120dp"
+        android:text="Login" />
 
     <TextView
         android:id="@+id/noAccountTv"
@@ -96,15 +96,16 @@ style="@style/Widget.AppCompat.Button.Colored"
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="5dp"
         android:text="Not have an account? Register" />
-<Button
-    android:id="@+id/SignUpBtn"
-    android:text="SignUp"
-    android:layout_centerHorizontal="true"
-    style="@style/Widget.AppCompat.Button.Colored"
-    android:minWidth="120dp"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_below="@+id/loginBtn"/>
+
+    <Button
+        android:id="@+id/SignUpBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginBtn"
+        android:layout_centerHorizontal="true"
+        android:minWidth="120dp"
+        android:text="SignUp" />
 
 
 
