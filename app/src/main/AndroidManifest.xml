@@ -15,7 +15,7 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/logoair"
-        android:label="Nike"
+        android:label="ShoeStore"
         android:roundIcon="@id/icon"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication.NOActionBar"
