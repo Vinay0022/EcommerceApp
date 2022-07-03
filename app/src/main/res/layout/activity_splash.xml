@@ -7,12 +7,12 @@
     android:background="@drawable/gradient_background"
     tools:context=".SplashActivity">
 
-<ImageView
-    android:id="@+id/iconTV"
-    android:layout_width="160dp"
-    android:layout_height="180dp"
-    android:src="@drawable/logoair"
-    android:layout_centerInParent="true"/>
+    <ImageView
+        android:id="@+id/iconTV"
+        android:layout_width="160dp"
+        android:layout_height="180dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logoair" />
 
 
     <TextView
@@ -21,12 +21,12 @@
 
         android:layout_height="wrap_content"
         android:layout_below="@+id/iconTV"
-        android:text="SneakerHead"
-        android:textSize="25sp"
-        android:layout_marginTop="10dp"
-        android:textStyle="bold"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/colorWhite"/>
+        android:layout_marginTop="10dp"
+        android:text="SneakerHead"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        android:textStyle="bold" />
 
 
 </RelativeLayout>
