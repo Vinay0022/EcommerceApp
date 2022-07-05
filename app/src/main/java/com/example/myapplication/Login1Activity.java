@@ -32,8 +32,8 @@ FirebaseUser mUser;
 
         signUp1Btn = findViewById(R.id.signUp1Btn);
         mName = findViewById(R.id.name1et);
-        mEmail = findViewById(R.id.email1et);
-        mPass = findViewById(R.id.pass1et);
+        mEmail = findViewById(R.id.username_input);
+        mPass = findViewById(R.id.pass);
         login = findViewById(R.id.logintv);
         mAuth = FirebaseAuth.getInstance();
         mUser = mAuth.getCurrentUser();
@@ -81,7 +81,7 @@ FirebaseUser mUser;
                 }
             }
             private void sendUserToNextActivity(){
-                Intent intent = new Intent(Login1Activity.this,LoginActivity.class);
+                Intent intent = new Intent(Login1Activity.this,HomePageActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivity(intent);
             }
