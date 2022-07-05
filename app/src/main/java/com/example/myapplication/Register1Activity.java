@@ -71,7 +71,7 @@ FirebaseAuth mAuth;
             }
 
             private void sendUserToNextActivity() {
-                Intent intent = new Intent(Register1Activity.this, LoginActivity.class);
+                Intent intent = new Intent(Register1Activity.this, HomePageActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivity(intent);
             }

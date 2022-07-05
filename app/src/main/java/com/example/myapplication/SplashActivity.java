@@ -20,6 +20,7 @@ Animation top,bottom;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //        make a fullscreen
         getWindow().requestFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -31,14 +32,14 @@ Animation top,bottom;
 
 
 
-//        make a fullscreen
 
-        //        start login activity after 2 sec
+
+
         top = AnimationUtils.loadAnimation(this,R.anim.top);
         bottom = AnimationUtils.loadAnimation(this,R.anim.bottom);
         image.setAnimation(top);
         text.setAnimation(bottom);
-
+//        start login activity after 2 sec
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {

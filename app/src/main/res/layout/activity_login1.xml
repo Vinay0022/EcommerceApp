@@ -16,12 +16,16 @@
             android:layout_height="273dp"
             android:background="@drawable/grey_bg">
 
-            <ImageView
-                android:layout_width="77dp"
-                android:layout_height="77dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="93dp"
-                android:src="@drawable/logo"/>
+            <TextView
+                android:layout_marginTop="59dp"
+                android:layout_marginStart="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login \nto Your Account"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/open_sans"
+                android:textSize="32sp"
+                android:textStyle="bold"/>
 
         </FrameLayout>
 

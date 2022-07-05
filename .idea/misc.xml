@@ -11,19 +11,27 @@
         <entry key="..\:/Users/vinu0/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.259" />
         <entry key="..\:/Users/vinu0/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_cart.xml" value="0.259" />
         <entry key="..\:/Users/vinu0/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.124" />
+        <entry key="..\:/Users/vinu0/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_locatin_grey.xml" value="0.256" />
+        <entry key="..\:/Users/vinu0/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_lock_gray.xml" value="0.256" />
+        <entry key="..\:/Users/vinu0/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_mail_grey.xml" value="0.256" />
+        <entry key="..\:/Users/vinu0/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_nike.xml" value="0.2375" />
         <entry key="..\:/Users/vinu0/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/shape_circle01.xml" value="0.1" />
         <entry key="..\:/Users/vinu0/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/shapre_rect02.xml" value="0.1" />
         <entry key="..\:/Users/vinu0/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/shop_rect01.xml" value="0.2585" />
         <entry key="..\:/Users/vinu0/AndroidStudioProjects/MyApplication/app/src/main/res/font/.xml" value="0.1" />
         <entry key="..\:/Users/vinu0/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_forgot_password.xml" value="0.22418478260869565" />
+        <entry key="..\:/Users/vinu0/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_home_page.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/vinu0/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_login.xml" value="0.264" />
-        <entry key="..\:/Users/vinu0/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_login1.xml" value="0.264" />
+        <entry key="..\:/Users/vinu0/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_login1.xml" value="0.4" />
         <entry key="..\:/Users/vinu0/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.4" />
         <entry key="..\:/Users/vinu0/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_register1.xml" value="0.264" />
         <entry key="..\:/Users/vinu0/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_register_seller.xml" value="0.22418478260869565" />
         <entry key="..\:/Users/vinu0/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_register_user.xml" value="0.264" />
         <entry key="..\:/Users/vinu0/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_splash.xml" value="0.264" />
         <entry key="..\:/Users/vinu0/AndroidStudioProjects/MyApplication/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Users/vinu0/AndroidStudioProjects/MyApplication/app/src/main/res/layout/new_release_recylcer_items.xml" value="0.4742468415937804" />
+        <entry key="..\:/Users/vinu0/AndroidStudioProjects/MyApplication/app/src/main/res/layout/recycler_shoe.xml" value="0.253125" />
+        <entry key="..\:/Users/vinu0/AndroidStudioProjects/MyApplication/app/src/main/res/layout/shoe_list.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

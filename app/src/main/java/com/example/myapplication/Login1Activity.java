@@ -42,7 +42,7 @@ FirebaseUser mUser;
         signUp1Btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(getApplicationContext(),Register1Activity.class);
+                Intent in = new Intent(getApplicationContext(),HomePageActivity.class);
                 startActivity(in);
             }
         });
@@ -81,7 +81,7 @@ FirebaseUser mUser;
                 }
             }
             private void sendUserToNextActivity(){
-                Intent intent = new Intent(Login1Activity.this,LoginActivity.class);
+                Intent intent = new Intent(Login1Activity.this,HomePageActivity.class);
 //                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivity(intent);
             }
